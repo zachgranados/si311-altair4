@@ -26,6 +26,8 @@ After building these charts, you will make a website with these charts using str
 *   If you end up stuck, show us your work by including links (URLs) that you have searched for. You'll get partial credit for showing your work in progress.
 """
 
+pip install vega_datasets
+
 import pandas as pd
 import altair as alt
 from vega_datasets import data
